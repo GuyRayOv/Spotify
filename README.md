@@ -20,8 +20,8 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ---
 
 🧩 Project Structure
-<details> <summary><b>📂 Click to expand project tree</b></summary>
 ```
+<details> <summary><b>📂 Click to expand project tree</b></summary>
 {REPOSITORY_PATH}/
 │
 ├── data/
