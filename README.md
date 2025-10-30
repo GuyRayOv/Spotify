@@ -59,6 +59,6 @@ Open {REPOSITORY_PATH}/src/config.json and define PROJECT_PATH variables to be y
 Open the LAST notebook ({REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb) and Run All
 
 📊 Project Deliverables
-Jupyter Notebooks – one per ML pipeline stage {REPOSITORY_PATH}/notebooks
+Jupyter Notebooks – one per ML pipeline stage {REPOSITORY_PATH}/notebooks/
 Configuration File – centralized global parameters {REPOSITORY_PATH}/src/config.json
-Presentation Deck – key insights and visualizations: {REPOSITORY_PATH}/data/Spotify Dataset.pptx
+Presentation Deck – key insights and visualizations {REPOSITORY_PATH}/data/Spotify Dataset.pptx
