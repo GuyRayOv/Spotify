@@ -1,7 +1,7 @@
 # 🎯 Machine Learning Pipeline Project
 
-This repository contains a complete, modular **machine learning pipeline**, developed using a Kaggle dataset.  
-The original dataset documentation is available at: `{REPOSITORY_PATH}/data/README.md`
+This repository contains a complete, modular **machine learning pipeline**, developed using Kaggle's Spotify dataset.  
+The original dataset documentation by Kaggles is available at: `{REPOSITORY_PATH}/data/README.md`
 
 ---
 
