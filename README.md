@@ -15,11 +15,9 @@ The project implements all major stages of a supervised machine learning workflo
 Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure modularity, clarity, and reproducibility.
 
 🧩 Project Structure
-{PROJECT_PATH}/
+{REPOSITORY_PATH}/
 │
 ├── data/
-│   ├── raw/                     # Original dataset files
-│   ├── processed/               # Processed and intermediate data
 │   ├── README.md                # Kaggle dataset description
 │   └── Spotify Dataset.pptx     # Project presentation with visualizations
 │
