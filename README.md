@@ -44,12 +44,9 @@ Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure mod
 
 Notebooks are executed sequentially, where Notebook N executes notebook N-1 and loads its serialized output (.pkl of N−1).
 Each stage can be re-run independently, promoting flexibility and reproducibility.
-
-A centralized configuration file {REPOSITORY_PATH}/src/config.json defines all global parameters, including:
-File paths and execution order
-Algorithms for outlier detection, imputation, and modeling
-Grid search and model parameters
-Pipeline control flags (e.g., "split_df")
+A centralized configuration file {REPOSITORY_PATH}/src/config.json defines all global parameters, including: File paths, Execution order,
+Algorithms for outlier detection, imputation, and modeling, Grid search and model parameters
+Pipeline control flags (e.g., "split_df", chain_notebooks)
 
 🧠 Data Leakage Prevention
 To ensure robust evaluation and prevent data leakage, the dataset is split into two independent subsets:
