@@ -20,8 +20,32 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ---
 
 ## 🧩 Project Structure
-<pre> {REPOSITORY_PATH}/ │ ├── data/ │ ├── README.md # Kaggle dataset description │ └── Spotify Dataset.pptx # Project presentation with visualizations │ ├── notebooks/ │ ├── 1_spotify_dataprep.ipynb │ ├── 2_spotify_eda.ipynb │ ├── 3_spotify_datacleansing.ipynb │ ├── 4_spotify_fe.ipynb │ └── 5_spotify_models.ipynb │ ├── src/ │ ├── config.json # Global project configuration file │ ├── utils.py # Helper functions (shared across notebooks) │ └── __init__.py │ ├── output/ # Logs, results, and generated files ├── pickles/ # Serialized models and data │ ├── requirements.txt # Python dependencies ├── README.md # Project documentation (this file) └── .gitignore # Ignored files and folders </pre>
-
+<details> <summary><b>📂 Click to view full project tree</b></summary> <br>
+{REPOSITORY_PATH}/
+│
+├── data/
+│   ├── README.md                # Kaggle dataset description
+│   └── Spotify Dataset.pptx     # Project presentation with visualizations
+│
+├── notebooks/
+│   ├── 1_spotify_dataprep.ipynb
+│   ├── 2_spotify_eda.ipynb
+│   ├── 3_spotify_datacleansing.ipynb
+│   ├── 4_spotify_fe.ipynb
+│   └── 5_spotify_models.ipynb
+│
+├── src/
+│   ├── config.json              # Global project configuration file
+│   ├── utils.py                 # Helper functions (shared across notebooks)
+│   └── __init__.py
+│
+├── output/                      # Logs, results, and generated files
+├── pickles/                     # Serialized models and data
+│
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project documentation (this file)
+└── .gitignore                   # Ignored files and folders
+</details>
 ---
 ## ⚙️ Notebook Workflow
 
