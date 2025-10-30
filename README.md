@@ -49,13 +49,10 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 
 ## ⚙️ Notebook Workflow
 
-Notebooks are **cascading each other** —  
-Notebook *N* executes notebook *N-1* first and loads its serialized output (`N-1.pkl`).  
-Each stage can also be run independently, promoting flexibility and reproducibility.
+Notebooks are **cascading each other** — Notebook *N* executes notebook *N-1* first and loads its serialized output (`N-1.pkl`).  
+Each stage can also be run independently
 
-A centralized configuration file —  
-`{REPOSITORY_PATH}/src/config.json` — defines all global parameters, including:
-
+A centralized configuration file —  `{REPOSITORY_PATH}/src/config.json` — defines all global parameters, including:
 - File paths  
 - Execution order  
 - Algorithms for outlier detection, imputation, and modeling  
@@ -78,9 +75,8 @@ This behavior is controlled via the `"split_df"` flag in `config.json`.
 ## 🚀 How to Run
 
 1. **Clone** this repository to your local machine.  
-2. Open `{REPOSITORY_PATH}/src/config.json` and define `PROJECT_PATH` variables to match your local copy.  
-3. Open the last notebook:  
-   `{REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb`  
+2. Open `{REPOSITORY_PATH}/src/config.json` and define `PROJECT_PATH` to match your local copy.  
+3. Open the last notebook:  `{REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb`  
 4. Click **Run All** to execute the full pipeline.
 
 ---
