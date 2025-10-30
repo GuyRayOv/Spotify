@@ -66,5 +66,5 @@ Thumbs.db
 logs/
 plots/
 images/
-output/*.ipynb
-pickles/*.pkl
+output/
+pickles/
