@@ -44,9 +44,9 @@ Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure mod
 
 Notebooks are executed sequentially, where Notebook N executes notebook N-1 and loads its serialized output (.pkl of N−1).
 Each stage can be re-run independently, promoting flexibility and reproducibility.
+
 A centralized configuration file {REPOSITORY_PATH}/src/config.json defines all global parameters, including: File paths, Execution order,
-Algorithms for outlier detection, imputation, and modeling, Grid search and model parameters
-Pipeline control flags (e.g., "split_df", chain_notebooks)
+Algorithms for outlier detection, imputation, and modeling. And Pipeline control flags (e.g., "split_df", chain_notebooks)
 
 🧠 Data Leakage Prevention
 To ensure robust evaluation and prevent data leakage, the Kaggle dataset is split into two independent subsets:
@@ -56,43 +56,14 @@ Both are processed independently through the pipeline.
 This behavior is controlled via the "split_df" flag in config.json.
 
 🚀 How to Run
-Open the LAST notebook (5_spotify_models.ipynb) and run it
-
-2. Set up the environment
-python -m venv venv
-source venv/bin/activate     # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-3. Configure parameters
-
-Edit {PROJECT_PATH}/src/config.json to define:
-
-Input/output paths
-
-Algorithms and model parameters
-
-Split control ("split_df")
-
-4. Execute the pipeline
-
-Run notebooks manually (Jupyter/VS Code) or automatically with Papermill:
-
-papermill notebooks/1_data_prep.ipynb notebooks/output/1_data_prep_output.ipynb
-papermill notebooks/2_eda.ipynb notebooks/output/2_eda_output.ipynb
-papermill notebooks/3_cleansing.ipynb notebooks/output/3_cleansing_output.ipynb
-papermill notebooks/4_feature_engineering.ipynb notebooks/output/4_feature_engineering_output.ipynb
-papermill notebooks/5_model_selection.ipynb notebooks/output/5_model_selection_output.ipynb
+Download this repository to a local copy.
+Open {REPOSITORY_PATH}/src/config.json and define PROJECT_PATH variables to be your local copy
+Open the LAST notebook ({REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb) and Run All
 
 📊 Project Deliverables
-
-Jupyter Notebooks – one per ML pipeline stage
-
-Configuration File – centralized global parameters
-
-Serialized Files (.pkl) – intermediate artifacts for reproducibility
-
-Presentation Deck – key insights and visualizations:
-{PROJECT_PATH}/data/Spotify Dataset.pptx
+Jupyter Notebooks – one per ML pipeline stage {REPOSITORY_PATH}/notebooks
+Configuration File – centralized global parameters {REPOSITORY_PATH}/src/config.json
+Presentation Deck – key insights and visualizations: {REPOSITORY_PATH}/data/Spotify Dataset.pptx
 
 🧠 Key Libraries
 
