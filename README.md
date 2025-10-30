@@ -64,18 +64,3 @@ Open the LAST notebook ({REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb) and 
 Jupyter Notebooks – one per ML pipeline stage {REPOSITORY_PATH}/notebooks
 Configuration File – centralized global parameters {REPOSITORY_PATH}/src/config.json
 Presentation Deck – key insights and visualizations: {REPOSITORY_PATH}/data/Spotify Dataset.pptx
-
-🧠 Key Libraries
-
-Developed using Python 3.x and the following main dependencies:
-
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-joblib
-papermill
-
-
-(Full dependency list available in requirements.txt.)
