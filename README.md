@@ -20,7 +20,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ---
 
 ## 🧩 Project Structure
-
+'''
 {REPOSITORY_PATH}/
 │
 ├── data/
@@ -45,8 +45,9 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation (this file)
 └── .gitignore # Ignored files and folders
----
+'''
 
+---
 ## ⚙️ Notebook Workflow
 
 Notebooks are **cascading each other** — Notebook *N* executes notebook *N-1* first and loads its serialized output (`N-1.pkl`).  
