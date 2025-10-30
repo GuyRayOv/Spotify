@@ -83,11 +83,8 @@ This behavior is controlled via the `"split_df"` flag in `config.json`.
 
 ## 📊 Project Deliverables
 
-- **Jupyter Notebooks** – one per ML pipeline stage  
-  → `{REPOSITORY_PATH}/notebooks/`  
-- **Configuration File** – centralized global parameters  
-  → `{REPOSITORY_PATH}/src/config.json`  
-- **Presentation Deck** – key insights and visualizations  
-  → `{REPOSITORY_PATH}/data/Spotify Dataset.pptx`
+- **Jupyter Notebooks** – one per ML pipeline stage → `{REPOSITORY_PATH}/notebooks/`  
+- **Configuration File** – centralized global parameters → `{REPOSITORY_PATH}/src/config.json`  
+- **Presentation Deck** – key insights and visualizations → `{REPOSITORY_PATH}/data/Spotify Dataset.pptx`
 
 ---
