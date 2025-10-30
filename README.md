@@ -42,8 +42,7 @@ Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure mod
 
 ⚙️ Notebook Workflow
 
-The notebooks are executed sequentially, where Notebook N executes notebook N-1 and loads the serialized output (.pkl) of N−1.
-Notebook N processes and exports data for N+1.
+The notebooks are executed sequentially, where Notebook N executes notebook N-1 and loads its serialized output (.pkl of N−1).
 Each stage can be re-run independently, promoting flexibility and reproducibility.
 
 A centralized configuration file {PROJECT_PATH}/src/config.json defines all global parameters, including:
