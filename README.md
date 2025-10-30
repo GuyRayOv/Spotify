@@ -1,17 +1,23 @@
-Machine Learning Pipeline Project
+# 🎯 Machine Learning Pipeline Project
 
-This repository contains a complete, modular machine learning pipeline, developed using a Kaggle dataset. The original dataset documentation is available at:
-{REPOSITORY_PATH}/data/README.md
+This repository contains a complete, modular **machine learning pipeline**, developed using a Kaggle dataset.  
+The original dataset documentation is available at: `{REPOSITORY_PATH}/data/README.md`
 
-📘 Project Overview
-The project implements all major stages of a supervised machine learning workflow, including:
-1) Data Preparation – loading, cleaning, and structuring the raw dataset.
-2) Exploratory Data Analysis (EDA) – statistical summaries, visualization, and feature insights.
-3) Data Cleansing – outlier detection and imputation of missing values.
-4) Feature Engineering & Selection – feature transformation, encoding, and importance ranking.
-5) Model Selection & Hyperparameter Optimization – model evaluation and tuning using Grid Search.
+---
 
-Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure modularity, clarity, and reproducibility.
+## 📘 Project Overview
+
+The project implements all major stages of a **supervised machine learning workflow**, including:
+
+1. **Data Preparation** – loading, cleaning, and structuring the raw dataset.  
+2. **Exploratory Data Analysis (EDA)** – statistical summaries, visualization, and feature insights.  
+3. **Data Cleansing** – outlier detection and imputation of missing values.  
+4. **Feature Engineering & Selection** – feature transformation, encoding, and importance ranking.  
+5. **Model Selection & Hyperparameter Optimization** – model evaluation and tuning using Grid Search.
+
+Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure modularity, clarity, and reproducibility.
+
+---
 
 🧩 Project Structure
 {REPOSITOR_PATH}/
