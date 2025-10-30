@@ -12,7 +12,8 @@ The project implements all major stages of a supervised machine learning workflo
 5) Model Selection & Hyperparameter Optimization – model evaluation and tuning using Grid Search.
 
 Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure modularity, clarity, and reproducibility.
-"""
+
+🧩 Project Structure
 {REPOSITORY_PATH}/
 │
 ├── data/
@@ -37,33 +38,6 @@ Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure mod
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation (this file)
 └── .gitignore # Ignored files and folders
-
-"""
-🧩 Project Structure
-{REPOSITORY_PATH}/
-│
-├── data/
-│   ├── README.md                # Kaggle dataset description
-│   └── Spotify Dataset.pptx     # Project presentation with visualizations
-│
-├── notebooks/
-│   ├── 1_spotiy_dataprep.ipynb
-│   ├── 2_spotify_eda.ipynb
-│   ├── 3_spotify_datacleansing.ipynb
-│   ├── 4_spotify_fe.ipynb
-│   ├── 5_spotify_models.ipynb
-│
-├── src/
-│   ├── config.json              # Global projet configuration file
-│   ├── utils.py                 # Helper functions for all notebooks (optional)
-│   └── __init__.py
-│
-├── output/                      # Executed notebooks, logs, pickles
-├── pickles/                     # Executed notebooks, logs, pickles
-|
-├── requirements.txt             # Python dependencies
-├── README.md                    # Project documentation (this file)
-└── .gitignore                   # Ignored files and folders
 
 ⚙️ Notebook Workflow
 Notebooks are cascading each other. Where Notebook N executes notebook N-1 first, and loads its serialized output (N-1.pkl). 
