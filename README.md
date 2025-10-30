@@ -21,6 +21,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 
 🧩 Project Structure
 <details> <summary><b>📂 Click to expand project tree</b></summary>
+```
 {REPOSITORY_PATH}/
 │
 ├── data/
@@ -45,6 +46,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation (this file)
 └── .gitignore                   # Ignored files and folders
+```
 
 </details>
 
