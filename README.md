@@ -29,8 +29,8 @@ Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure mod
 │   ├── 5_spotify_models.ipynb
 │
 ├── src/
-│   ├── config.json              # Global configuration file
-│   ├── utils.py                 # Helper functions (optional)
+│   ├── config.json              # Global projet configuration file
+│   ├── utils.py                 # Helper functions for all notebooks (optional)
 │   └── __init__.py
 │
 ├── output/                      # Executed notebooks and logs
