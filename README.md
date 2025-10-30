@@ -18,8 +18,7 @@ The project implements all major stages of a **supervised machine learning workf
 Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure modularity, clarity, and reproducibility.
 
 ---
-
-## 🧩 Project Structure
+🧩 Project Structure
 <details> <summary><b>📂 Click to view full project tree</b></summary> <br>
 {REPOSITORY_PATH}/
 │
@@ -45,7 +44,9 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation (this file)
 └── .gitignore                   # Ignored files and folders
+
 </details>
+
 ---
 ## ⚙️ Notebook Workflow
 
