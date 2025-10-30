@@ -14,30 +14,26 @@ The project implements all major stages of a supervised machine learning workflo
 Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure modularity, clarity, and reproducibility.
 
 🧩 Project Structure
-{REPOSITORY_PATH}/
-│
-├── data/
-│ ├── README.md # Kaggle dataset description
-│ └── Spotify Dataset.pptx # Project presentation with visualizations
-│
-├── notebooks/
-│ ├── 1_spotify_dataprep.ipynb
-│ ├── 2_spotify_eda.ipynb
-│ ├── 3_spotify_datacleansing.ipynb
-│ ├── 4_spotify_fe.ipynb
-│ └── 5_spotify_models.ipynb
-│
-├── src/
-│ ├── config.json # Global project configuration file
-│ ├── utils.py # Helper functions (shared across notebooks)
-│ └── init.py
-│
-├── output/ # Logs, results, and generated files
-├── pickles/ # Serialized models and data
-│
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation (this file)
-└── .gitignore # Ignored files and folders
+{REPOSITOR_PATH}/
+    data/
+        README.md             # Kaggle dataset description
+        Spotify Dataset.pptx  # Project presentation with visualizations
+    notebooks/
+        1_spotify_dataprep.ipynb
+        2_spotify_eda.ipynb
+        3_spotify_datacleansing.ipynb
+        4_spotify_fe.ipynb
+        5_spotify_models.ipynb
+    src/
+        config.json   # Global project configuration file
+        utils.py      # Helper functions (shared across notebooks)
+        __init__.py
+    output/           # Logs, results, and generated files
+    pickles/          # Serialized models and data
+
+    requirements.txt # Python dependencies
+    README.md        # Project documentation (this file)
+ .  gitignore       # Ignored files and folders
 
 ⚙️ Notebook Workflow
 Notebooks are cascading each other. Where Notebook N executes notebook N-1 first, and loads its serialized output (N-1.pkl). 
