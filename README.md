@@ -49,15 +49,14 @@ Algorithms for outlier detection, imputation, and modeling, Grid search and mode
 Pipeline control flags (e.g., "split_df", chain_notebooks)
 
 🧠 Data Leakage Prevention
-To ensure robust evaluation and prevent data leakage, the dataset is split into two independent subsets:
+To ensure robust evaluation and prevent data leakage, the Kaggle dataset is split into two independent subsets:
 Training DataFrame (df)
-Testing DataFrame (df_test)
+Testing DataFrame  (df_test)
 Both are processed independently through the pipeline.
-
 This behavior is controlled via the "split_df" flag in config.json.
 
 🚀 How to Run
-Open the LAST notebook and run it
+Open the LAST notebook (5_spotify_models.ipynb) and run it
 
 2. Set up the environment
 python -m venv venv
