@@ -42,39 +42,26 @@ Each stage is implemented in a dedicated Jupyter notebook (.ipynb) to ensure mod
 
 ⚙️ Notebook Workflow
 
-The notebooks are executed sequentially, where:
-
-Notebook N loads the serialized output (.pkl) from N−1.
-
+The notebooks are executed sequentially, where Notebook N executes notebook N-1 and loads the serialized output (.pkl) of N−1.
 Notebook N processes and exports data for N+1.
-
 Each stage can be re-run independently, promoting flexibility and reproducibility.
 
 A centralized configuration file {PROJECT_PATH}/src/config.json defines all global parameters, including:
-
 File paths and execution order
-
 Algorithms for outlier detection, imputation, and modeling
-
 Grid search and model parameters
-
 Pipeline control flags (e.g., "split_df")
 
 🧠 Data Leakage Prevention
-
 To ensure robust evaluation and prevent data leakage, the dataset is split into two independent subsets:
-
 Training DataFrame (df)
-
 Testing DataFrame (df_test)
-
 Both are processed independently through the pipeline.
+
 This behavior is controlled via the "split_df" flag in config.json.
 
 🚀 How to Run
-1. Clone the repository
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+Open the LAST notebook and run it
 
 2. Set up the environment
 python -m venv venv
