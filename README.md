@@ -53,13 +53,13 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 
 Notebooks are **cascading each other** — Notebook *N* executes notebook *N-1* first and loads its serialized output (`N-1.pkl`). 
 Notebook '(REPOSITORY_PATH}/notebooks/1_spotify_dataprep.ipynb' starts its execution by downloading the Spotify dataset from Kaggle's webseite.
-Each stage can also be run independently. This behavior is controlled via the '"chain_df" flag in config.json`.
+Each stage can also be run independently. This behavior is controlled via the `chain_df` flag in `config.json`.
 
 A centralized configuration file —  `{REPOSITORY_PATH}/src/config.json` — defines all global parameters, including:
 - File paths
 - Execution order  
 - Algorithms for outlier detection, imputation, and modeling  
-- Pipeline control flags (e.g., `"split_df"`, `"chain_notebooks"`)
+- Pipeline control flags (e.g., `split_df`, `chain_notebooks`)
 
 ---
 
@@ -70,7 +70,7 @@ To ensure robust evaluation and prevent data leakage, the Kaggle dataset is spli
 - **Training DataFrame:** `df`  
 - **Testing DataFrame:** `df_test`
 
-Both are processed independently through the pipeline. This behavior is controlled via the `"split_df"` flag in `config.json`.
+Both are processed independently through the pipeline. This behavior is controlled via the `split_df` flag in `config.json`.
 
 ---
 
@@ -78,7 +78,7 @@ Both are processed independently through the pipeline. This behavior is controll
 
 1. **Clone** this repository to your local machine.  
 2. Open `{REPOSITORY_PATH}/src/config.json` and define `PROJECT_PATH` to match your local copy.
-3. For ecexution of the full pipline define '"chain_notebooks" : "1"' in `{REPOSITORY_PATH}/src/config.json`. Or '"chain_notebooks" : "0"' for a run of a sinlge notebook.
+3. For ecexution of the full pipline define `chain_notebooks : 1` in `{REPOSITORY_PATH}/src/config.json`. Or `chain_notebooks : 0` for a run of a sinlge notebook.
 4. Open the last notebook: `{REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb`  
 5. Click **Run All** to execute the full pipeline.
 
