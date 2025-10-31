@@ -70,8 +70,7 @@ To ensure robust evaluation and prevent data leakage, the Kaggle dataset is spli
 - **Training DataFrame:** `df`  
 - **Testing DataFrame:** `df_test`
 
-Both are processed independently through the pipeline.  
-This behavior is controlled via the `"split_df"` flag in `config.json`.
+Both are processed independently through the pipeline. This behavior is controlled via the `"split_df"` flag in `config.json`.
 
 ---
 
