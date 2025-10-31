@@ -79,8 +79,9 @@ Both are processed independently through the pipeline. This behavior is controll
 1. **Clone** this repository to your local machine.  
 2. Open `{REPOSITORY_PATH}/src/config.json` and define `PROJECT_PATH` to match your local copy.
 3. To execute the entire pipline, define `chain_notebooks : 1`. Or `0` for a run of a sinlge notebook.
-4. Open the last notebook: `{REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb`, for an execute of the entire pipline. Or any other notebook for a partial run.
-5. Click **Run All**.
+4. Open the last notebook: `{REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb`, for an execute of the entire pipline.
+5. Or any notebook for a partial run.
+6. Click **Run All**.
 
 ---
 
