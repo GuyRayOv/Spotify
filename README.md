@@ -52,7 +52,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ## ⚙️ Notebook Workflow
 
 Notebooks are **cascading each other** — Notebook *N* executes notebook *N-1* first and loads its serialized output (`N-1.pkl`).  
-Each stage can also be run independently
+Each stage can also be run independently. The first notbook downloads the dataset from Kaggles webseite.
 
 A centralized configuration file —  `{REPOSITORY_PATH}/src/config.json` — defines all global parameters, including:
 - File paths  
