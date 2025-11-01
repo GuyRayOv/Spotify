@@ -52,7 +52,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ## ⚙️ Notebook Workflow
 
 Notebooks are **cascading each other** — Notebook *N* executes notebook *N-1* first and loads its serialized output (*N-1.pkl*). 
-The first notebook, 'notebooks/1_spotify_dataprep.ipynb', starts its execution by downloading the Spotify dataset from Kaggle's webseite.
+he workflow begins with the first notebook: 'notebooks/1_spotify_dataprep.ipynb', which downloads the Spotify dataset from Kaggle.
 
 Each stage can also be run independently. This behavior is controlled with the `chain_df` flag in `src/config.json`, the centralized configuration file that defines all global parameters. 
 Including:
@@ -70,7 +70,7 @@ To ensure robust evaluation and prevent data leakage, the Kaggle dataset is spli
 - **Training DataFrame:** `df`  
 - **Testing DataFrame:** `df_test`
 
-Both are processed independently through the pipeline. This behavior is controlled via the `split_df` flag in `config.json`.
+Both subsets are processed independently throughout the pipeline. This behavior is controlled via the `split_df` flag in `config.json`.
 
 ---
 
