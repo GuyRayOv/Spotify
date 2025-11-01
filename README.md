@@ -77,11 +77,12 @@ Both are processed independently through the pipeline. This behavior is controll
 ## 🚀 How to Run
 
 1. **Clone** this repository to your local machine.  
-2. Create .env file in the root directory of the execution, e.g `/contect/.env` and define PROJECT_PATH to match your local copy.
-3. To execute the entire pipline, define `chain_notebooks : 1`. Or `0` for a run of a sinlge notebook.
-4. Open the last notebook: `{REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb`, for an execute of the entire pipline.
-5. Or any notebook for a partial run.
-6. Click **Run All**.
+2. Create `.env` file in the root directory of the Runtime, e.g. `/contect/.env`
+3. In `.env` define 'PROJECT_PATH' to match your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
+4. To execute the entire pipline, define `chain_notebooks : 1`. Or `0` for a run of a sinlge notebook.
+5. Open the last notebook: `{REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb`, for an execute of the entire pipline.
+6. Or any notebook for a partial run.
+7. Click **Run All**.
 
 ---
 
