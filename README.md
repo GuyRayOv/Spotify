@@ -51,11 +51,11 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 
 ## ⚙️ Notebook Workflow
 
-Notebooks are **cascading each other** — Notebook *N* executes notebook *N-1* first and loads its serialized output (`N-1.pkl`). 
-Notebook '(REPOSITORY_PATH}/notebooks/1_spotify_dataprep.ipynb' starts its execution by downloading the Spotify dataset from Kaggle's webseite.
+Notebooks are **cascading each other** — Notebook *N* executes notebook *N-1* first and loads its serialized output (*N-1.pkl*). 
+The first notebook, 'notebooks/1_spotify_dataprep.ipynb', starts its execution by downloading the Spotify dataset from Kaggle's webseite.
 Each stage can also be run independently. This behavior is controlled via the `chain_df` flag in `config.json`.
 
-A centralized configuration file —  `{REPOSITORY_PATH}/src/config.json` — defines all global parameters, including:
+A centralized configuration file —  `src/config.json` — defines all global parameters, including:
 - File paths
 - Execution order  
 - Algorithms for outlier detection, imputation, and modeling  
@@ -78,9 +78,9 @@ Both are processed independently through the pipeline. This behavior is controll
 
 1. **Clone** this repository to your local machine.  
 2. Create `.env` file in the root directory of the Runtime, e.g. `/contect/.env`
-3. In `.env` define `PROJECT_PATH` to match your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
-4. To execute the entire pipline, keep `chain_notebooks : 1` in `{REPOSITORY_PATH}/src/config.json`.
-5. Open `{REPOSITORY_PATH}/notebooks/5_spotify_models.ipynb`, for an execution of the entire pipline. Or any notebook for a partial run.
+3. In `.env` define `PROJECT_PATH` to point to your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
+4. Keep `chain_notebooks : 1` in `src/config.json`, for executtion of the entire pipline,
+5. Open `notebooks/5_spotify_models.ipynb`, for a full execution, or any notebook for a partial run.
 7. Click **Run All**
 
 ---
