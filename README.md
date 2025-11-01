@@ -87,8 +87,8 @@ Both are processed independently through the pipeline. This behavior is controll
 
 ## 📊 Project Deliverables
 
-- **Jupyter Notebooks** – one per ML pipeline stage → `{REPOSITORY_PATH}/notebooks/`  
-- **Configuration File** – centralized global parameters → `{REPOSITORY_PATH}/src/config.json`  
-- **Presentation Deck** – key insights and visualizations → `{REPOSITORY_PATH}/data/Spotify Dataset.pptx`
+- **Jupyter Notebooks**. One per ML pipeline stage under `notebooks/`  
+- **Configuration File**. A centralized global parameters, `src/config.json`  
+- **Presentation Deck** – key insights and visualizations, `data/Spotify Dataset.pptx`
 
 ---
