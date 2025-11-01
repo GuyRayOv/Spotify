@@ -5,7 +5,7 @@
 "notebooks_directory" : "notebooks/",
 "src_directory"       : "src/",
 "pickles_directory"   : "pickles/",
-"output_directory"    : "pickles/",
+"output_directory"    : "output/",
 
 "notebook1" : "1spotify_dataprep.ipynb",
 "notebook2" : "2spotify_eda.ipynb",
