@@ -79,8 +79,9 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 1. **Clone** this repository to your local machine.  
 2. Create `.env` file in the root directory of the Runtime, e.g. `/contect/.env`
 3. In `.env` define `PROJECT_PATH` to point to your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
-4. Keep `chain_notebooks : 1` in `src/config.json`, for execution of the entire pipline.
-5. Open `notebooks/5_spotify_models.ipynb`, for a full execution, or any notebook for a partial run.
+4. In `.env` define your Kaggles API params: 'KAGGLE_USERNAME="your user name"' and 'KAGGLE_API_KEY="your api key"' 
+5. Keep `chain_notebooks : 1` in `src/config.json`, for execution of the entire pipline.
+6. Open `notebooks/5_spotify_models.ipynb`, for a full execution, or any notebook for a partial run.
 7. Click **Run All**
 
 ---
