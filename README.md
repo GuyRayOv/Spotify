@@ -24,8 +24,8 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 {REPOSITORY_PATH}/
 │
 ├── data/
-│   ├── README.md                # Kaggle dataset description
-│   └── Project Presentation.pptx     # Project presentation with visualizations
+│   ├── README.md                   # Kaggle dataset description
+│   └── Project Presentation.pptx   # Project presentation with visualizations
 │
 ├── notebooks/
 │   ├── 1spotify_dataprep.ipynb
