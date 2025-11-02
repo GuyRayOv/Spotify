@@ -25,7 +25,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 │
 ├── data/
 │   ├── README.md                # Kaggle dataset description
-│   └── Spotify Dataset.pptx     # Project presentation with visualizations
+│   └── Project Presentation.pptx     # Project presentation with visualizations
 │
 ├── notebooks/
 │   ├── 1spotify_dataprep.ipynb
@@ -90,6 +90,6 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 
 - **Jupyter Notebooks**. One per ML pipeline stage under `notebooks/*.ipynb`  
 - **Configuration File**. A centralized global parameters, `src/config.json`  
-- **Presentation Deck**. Key insights and visualizations, `data/Spotify Dataset.pptx`
+- **Presentation Deck**. Key insights and visualizations, `data/Project Presentation.pptx`
 
 ---
