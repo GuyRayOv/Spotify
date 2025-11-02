@@ -25,7 +25,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 │
 ├── data/
 │   ├── README.md                # Kaggle dataset description
-│   └── Project Presentation.pptx     # Project presentation with visualizations
+│   └── ProjectPresentation.pptx # Project presentation with visualizations
 │
 ├── notebooks/
 │   ├── 1spotify_dataprep.ipynb
@@ -58,8 +58,8 @@ Each stage can also be run independently. This behavior is controlled with the `
 Including:
 - File paths
 - Execution order  
-- Algorithms for outlier detection, imputation, and modeling  
-- Pipeline control flags (e.g., `split_df`, `chain_notebooks`)
+- Algorithms for Outlier Detection, Imputation, and Modeling  
+- Pipeline control flags (e.g. `split_df` , `chain_notebooks`)
 
 ---
 
@@ -80,8 +80,8 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 2. Create `.env` file in the root directory of the Runtime, e.g. `/contect/.env`
 3. In `.env` define `PROJECT_PATH` to point to your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
 4. In `.env` define your Kaggles API params: `KAGGLE_USERNAME=username` and `KAGGLE_API_KEY=apikey`   
-5. Keep `chain_notebooks : 1` in `src/config.json`, for execution of the entire pipline.
-6. Open `notebooks/5_spotify_models.ipynb`, for a full execution, or any notebook for a partial run.
+5. Keep `chain_notebooks : 1` in `src/config.json` for an execution of the entire pipline.
+6. Open `notebooks/5_spotify_models.ipynb` for a full execution, or any notebook for a partial run.
 7. Click **Run All**
 
 ---
