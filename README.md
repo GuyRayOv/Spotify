@@ -58,7 +58,7 @@ Each stage can also be run independently. This behavior is controlled with the `
 Including:
 - File paths
 - Execution order  
-- Algorithms for outlier detection, imputation, and modeling  
+- Algorithms for Outlier Detection, Imputation, and Modeling  
 - Pipeline control flags (e.g. `split_df` , `chain_notebooks`)
 
 ---
