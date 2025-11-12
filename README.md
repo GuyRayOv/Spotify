@@ -81,7 +81,7 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 3. Create `.env` file in the root directory of the Runtime, e.g. `/contect/.env`
 4. In `.env` define `PROJECT_PATH` to point to your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
 5. In `.env` define your Kaggles API params: `KAGGLE_USERNAME=username` and `KAGGLE_API_KEY=apikey`
-6. Keep `chain_notebooks : 1` in  [config.json](src/config.json) for an execution of the entire pipline.
+6. Keep `chain_notebooks : 1` in  [config.json](src/config.json) for an execution of the entire pipline, up to the notebook oepn in bullet `2` above
 7. Click **Run All**
 
 ---
