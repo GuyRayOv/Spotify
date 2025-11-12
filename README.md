@@ -53,7 +53,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ## ⚙️ Notebook Workflow
 
 Notebooks are **cascading each other** — Notebook *N* executes notebook *N-1* first and loads its serialized output (*N-1.pkl*). 
-The cascade ends with `1spotify_dataprep.ipynb`, which downloads the Spotify dataset from Kaggle.
+The cascade ends with [notebooks/1spotify_dataprep.ipynb](notebooks/1spotify_dataprep.ipynb) `1spotify_dataprep.ipynb`, which downloads the Spotify dataset from Kaggle.
 Each stage can also be run independently - this behavior is controlled with the `chain_notebooks` flag in [config.json](src/config.json), the project's configuration file that defines all global parameters. 
 Including:
 - File paths
@@ -81,7 +81,7 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 3. In `.env` define `PROJECT_PATH` to point to your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
 4. In `.env` define your Kaggles API params: `KAGGLE_USERNAME=username` and `KAGGLE_API_KEY=apikey`   
 5. Keep `chain_notebooks : 1` in  [config.json](src/config.json) for an execution of the entire pipline.
-6. Open  [notebooks/5_spotify_models.ipynb](notebooks/5spotify_models.ipynb), for a full execution, or any notebook for a partial run.
+6. Open [notebooks/5_spotify_models.ipynb](notebooks/5spotify_models.ipynb), for a full execution, or any notebook for a partial run.
 7. Click **Run All**
 
 ---
