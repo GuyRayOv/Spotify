@@ -43,7 +43,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 ├── output/                      # Logs, results, and generated files
 ├── pickles/                     # Serialized models and data
 │
-├── requirements.txt             # Python dependencies
+|
 ├── README.md                    # Project documentation (this file)
 └── .gitignore                   # Ignored files and folders
 ```
