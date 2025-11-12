@@ -88,7 +88,7 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 
 ## 📊 Project Deliverables
 
-- **Jupyter Notebooks**. One per ML pipeline stage under [notebooks/*.ipynb]((notebooks)  
+- **Jupyter Notebooks**. One per ML pipeline stage under [notebooks/*.ipynb](notebooks/)  
 - **Configuration File**. A centralized global parameters, [config.json](src/config.json)  
 - **Presentation Deck**. Key insights and visualizations, `data/Project Presentation.pptx`
 
