@@ -54,7 +54,7 @@ Each stage is implemented in a dedicated **Jupyter notebook (.ipynb)** to ensure
 
 Notebooks are **cascading each other** — Notebook *N* executes notebook *N-1* first and loads its serialized output (*N-1.pkl*). 
 The cascade ends with `1spotify_dataprep.ipynb`, which downloads the Spotify dataset from Kaggle.
-Each stage can also be run independently - this behavior is controlled with the `chain_notebooks` flag in `src/config.json`, the project's configuration file that defines all global parameters. 
+Each stage can also be run independently - this behavior is controlled with the `chain_notebooks` flag in [config.json](src/config.json), the project's configuration file that defines all global parameters. 
 Including:
 - File paths
 - Execution order  
