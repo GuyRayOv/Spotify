@@ -80,7 +80,7 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 2. Create `.env` file in the root directory of the Runtime, e.g. `/contect/.env`
 3. In `.env` define `PROJECT_PATH` to point to your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
 4. In `.env` define your Kaggles API params: `KAGGLE_USERNAME=username` and `KAGGLE_API_KEY=apikey`   
-5. Keep `chain_notebooks : 1` in `src/config.json` for an execution of the entire pipline.
+5. Keep `chain_notebooks : 1` in  [config.json](src/config.json) for an execution of the entire pipline.
 6. Open  [notebooks/5_spotify_models.ipynb](notebooks/5spotify_models.ipynb), for a full execution, or any notebook for a partial run.
 7. Click **Run All**
 
@@ -90,6 +90,6 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 
 - **Jupyter Notebooks**. One per ML pipeline stage under `notebooks/*.ipynb`  
 - **Configuration File**. A centralized global parameters, [config.json](src/config.json)  
-- **Presentation Deck**. Key insights and visualizations, [data/Project Presentation.pptx](data/Project Presentation.pptx)
+- **Presentation Deck**. Key insights and visualizations, `data/Project Presentation.pptx`
 
 ---
