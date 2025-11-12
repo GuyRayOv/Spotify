@@ -81,7 +81,7 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 3. In `.env` define `PROJECT_PATH` to point to your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
 4. In `.env` define your Kaggles API params: `KAGGLE_USERNAME=username` and `KAGGLE_API_KEY=apikey`   
 5. Keep `chain_notebooks : 1` in  [config.json](src/config.json) for an execution of the entire pipline.
-6. Open [notebooks/5_spotify_models.ipynb](notebooks/5spotify_models.ipynb), for a full execution, or any notebook for a partial run.
+6. Open [notebooks/5_spotify_models.ipynb](notebooks/5spotify_models.ipynb) for a full execution, or any notebook for a partial run.
 7. Click **Run All**
 
 ---
