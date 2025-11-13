@@ -1,7 +1,7 @@
 # 🎯 Machine Learning Pipeline Project
 
 This repository contains a complete, modular **machine learning pipeline**, developed using Kaggle's Spotify dataset.  
-For more details on the dataset itself, see original [documentation](data/README.md.md) by Kaggles.
+For more details on the dataset itself, see Kaggle's [documentation](data/README.md.md).
 
 
 ---
@@ -76,12 +76,12 @@ Both subsets are processed independently throughout the pipeline. This behavior 
 
 ## 🚀 How to Run
 
-1. **Clone** this repository to your local machine.  
-2. Create `.env` file in the root directory of the Runtime, e.g. `/contect/.env`
-3. In `.env` define `PROJECT_PATH` to point to your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
-4. In `.env` define your Kaggles API params: `KAGGLE_USERNAME=username` and `KAGGLE_API_KEY=apikey`   
-5. Keep `chain_notebooks : 1` in  [config.json](src/config.json) for an execution of the entire pipline.
-6. Open [notebooks/5_spotify_models.ipynb](notebooks/5spotify_models.ipynb), for a full execution, or any notebook for a partial run.
+1. **Clone** this repository to your local machine.
+2. Open [notebooks/5_spotify_models.ipynb](notebooks/5spotify_models.ipynb) for a full execution, or any notebook for a partial run.
+3. Create `.env` file in the root directory of the Runtime, e.g. `/contect/.env`
+4. In `.env` define `PROJECT_PATH` to point to your local copy. e.g. `PROJECT_PATH=/content/drive/MyDrive/Projects/GitHub/Spotify/`
+5. In `.env` define your Kaggles API params: `KAGGLE_USERNAME=username` and `KAGGLE_API_KEY=apikey`
+6. Keep `chain_notebooks : 1` in  [config.json](src/config.json) for an execution of the entire pipline, up to the notebook opend in bullet `2` above
 7. Click **Run All**
 
 ---
